@@ -154,8 +154,7 @@ if (mix === true) {
 
 /*
 let temp = 40;
-// FIX - time is supposed to be a variable, not a constant. Also, the conditional
-// should be an and (&&) not an or (||).
+// FIX - the conditional should be an and (&&) not an or (||).
 const time = 4;
 
 if (temp > 39 || time >= 4) {
