@@ -137,7 +137,8 @@ if (number >= 2) {
 
 /*
 // FIX - coloOne and colorTwo are swapped. colorOne should be 'blue' and colorTwo
-// should be 'red'
+// should be 'red.' Also, in the if code block, colorTwo should also be
+// changed to purple.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -153,7 +154,8 @@ if (mix === true) {
 
 /*
 let temp = 40;
-// FIX - time is supposed to be a variable, not a constant.
+// FIX - time is supposed to be a variable, not a constant. Also, the conditional
+// should be an and (&&) not an or (||).
 const time = 4;
 
 if (temp > 39 || time >= 4) {
